@@ -7,11 +7,15 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 # 
 
-name: OpenWrt-CI
+name: OpenWrt-Orangenal
 
 on:
-  schedule:
+  #schedule:
     - cron: 0 20 * * *
+  #push:
+   # branches: 
+      - master    
+     
 
 jobs:
 
